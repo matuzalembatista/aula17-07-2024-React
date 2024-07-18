@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header, main, footer {
+    border: 1px solid black;
+    
+}
+
+.centralizar {
+    text-align: center;
+}
+
+main section:nth-of-type(odd) {
+    background-color: rgb(209, 209, 209);
+}
+
+main section:nth-of-type(even) {
+    background-color: white;
+}
+
+.box {
+    border: 1px solid red;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.containerSecao {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+}
